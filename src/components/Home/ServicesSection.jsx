@@ -82,6 +82,9 @@ const ServicesSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // First card is active by default
 
   return (
+
+
+    <div className="bg-gradient-to-r from-blue-700 to-purple-800">
     <div className="container mx-auto items-center pt-24 pb-10">
       <div className=" flex flex-col justify-center items-center ">
         {/* <Button text={"Advanced Technology"} /> */}
@@ -140,6 +143,8 @@ const ServicesSection = () => {
           </div>
         ))}
       </div>
+    </div>
+
     </div>
   );
 };

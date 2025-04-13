@@ -31,18 +31,20 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
+
+    <div className="bg-gradient-to-r from-blue-500 to-purple-700">
     <div className="container mx-auto px-4 md:px-20  items-center">
       <div className=" pt-24">
         <Button text={"Digital Aggency Query"} />
 
-        <h2 className="font-bold text-3xl text-black  pt-4 pb-3">
+        <h2 className="font-bold text-3xl text-white  pt-4 pb-3">
           <span className="bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent">
             Frequently
           </span>{" "}
           Asked Question
         </h2>
       </div>
-      <div className="bg-gray-50 py-20 px-4 md:px-8">
+      <div className="bg-gradient-to-r from-blue-500 to-purple-700 py-20 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-4">
@@ -54,13 +56,13 @@ const FAQ = () => {
                       setOpenIndex(openIndex === index ? -1 : index)
                     }
                   >
-                    <span className="font-semibold">{faq.question}</span>
-                    <span className="text-2xl">
+                    <span className="font-semibold text-white">{faq.question}</span>
+                    <span className="text-2xl text-white">
                       {openIndex === index ? "-" : "+"}
                     </span>
                   </button>
                   {openIndex === index && (
-                    <p className="mt-4 text-gray-600">{faq.answer}</p>
+                    <p className="mt-4  text-white">{faq.answer}</p>
                   )}
                 </div>
               ))}
@@ -85,6 +87,7 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

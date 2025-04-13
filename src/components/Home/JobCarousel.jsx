@@ -36,13 +36,15 @@ const JobCarousel = ({ jobs, title, color }) => {
   };
 
   return (
+
+    <div className="bg-gradient-to-r from-purple-500 to-pink-500">
     <div className="container mx-auto items-center pt-24 pb-16 px-4 md:px-10">
       <div className="relative flex justify-center py-4">
         <div className="w-[83%] lg:w-[95%] relative">
           {/* Title and Buttons */}
           <Button text={"Latest Update"} />
           <div className="  flex-col flex md:flex-row gap-10  md:gap-20 pt-5">
-            <h2 className=" w-full md:w-[40%] font-bold text-3xl text-black  pb-10">
+            <h2 className=" w-full md:w-[40%] font-bold text-3xl text-white  pb-10">
               Explore{" "}
               <span className="bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent">
                 Creative
@@ -50,7 +52,7 @@ const JobCarousel = ({ jobs, title, color }) => {
               Technology <br /> Blogs
             </h2>
             <div className=" hidden md:block h-[70px] border border-black"></div>
-            <p className=" text-black w-full  md:w-[40%] ">
+            <p className=" text-white w-full  md:w-[40%] ">
             Discover insights, trends, and tips in digital marketing, SEO, PPC, and branding. Our blogs empower businesses with innovative strategies, expert advice, and the latest industry updates to stay ahead in the ever-evolving digital landscape.
             </p>
           </div>
@@ -82,6 +84,7 @@ const JobCarousel = ({ jobs, title, color }) => {
           </Slider>
         </div>
       </div>
+    </div>
     </div>
   );
 };

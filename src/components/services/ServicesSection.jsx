@@ -43,8 +43,8 @@ export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-
-    <div className=" container mx-auto px-4   items-center pb-24 bg-gray-900">
+    <div className="bg-gray-900">
+    <div className=" container mx-auto px-4   items-center pb-24 ">
     <div className="flex flex-col md:flex-row bg-gray-900 text-white p-6 ">
       {/* Left Content Section */}
       <div className="md:w-2/3 pr-6">
@@ -96,6 +96,7 @@ export default function ServicesSection() {
           <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">SUBMIT</button>
         </form>
       </div>
+    </div>
     </div>
     </div>
   );

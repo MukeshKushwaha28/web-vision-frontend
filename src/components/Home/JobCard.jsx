@@ -5,8 +5,8 @@ const JobCard = ({ title, company, logo, salary, profile, link }) => {
     <div className="  p-5 w-full min-h-[320px] flex flex-col">
       <div className="flex flex-col items-center text-center flex-grow">
         <div className="relative group overflow-hidden rounded-2xl">
-          <h4 className=" text-black text-left pb-4">{profile}</h4>
-          <h2 className=" group cursor-pointer text-black text-2xl font-bold text-left pb-5 hover:text-red-400 ">
+          <h4 className=" text-white text-left pb-4">{profile}</h4>
+          <h2 className=" group cursor-pointer text-white text-2xl font-bold text-left pb-5 hover:text-red-400 ">
             {title}
           </h2>
 

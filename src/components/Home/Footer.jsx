@@ -3,8 +3,8 @@ import { IoIosMail, IoIosCall, IoIosPin } from "react-icons/io";
 
 const Footer = () => {
   return (
-
-    <div className="bg-black container mx-auto items-center px-4 md:px-12">
+   <div className="bg-black">
+    <div className=" container mx-auto items-center px-4 md:px-12">
     <footer className="bg-black text-white py-10 ">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo & Mailing List */}
@@ -111,6 +111,7 @@ const Footer = () => {
       </div>
     </footer>
 
+    </div>
     </div>
   );
 };

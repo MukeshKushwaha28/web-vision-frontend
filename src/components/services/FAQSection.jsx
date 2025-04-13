@@ -40,6 +40,7 @@ export default function FAQSection() {
 
   return (
 
+    <div  className='bg-blue-900 bg-gradient-to-b from-blue-900 to-purple-900'>
     <div className=" container mx-auto px-4 md:px-20  items-center pb-24 bg-blue-900 bg-gradient-to-b from-blue-900 to-purple-900">
 
     <div className="  flex justify-center items-center p-6 text-white">
@@ -61,6 +62,7 @@ export default function FAQSection() {
           ))}
         </div>
       </div>
+    </div>
     </div>
     </div>
   );

@@ -40,7 +40,8 @@ export default function TabsUI() {
 
   return (
 
-    <div className=" container mx-auto px-4 md:px-20  items-center pb-24 bg-blue-900">
+    <div className="bg-blue-900">
+    <div className=" container mx-auto px-4 md:px-20  items-center pb-24 ">
     <div className="bg-blue-900 text-white p-6 md:p-12">
       <div className="flex justify-center">
         <div className="flex space-x-4 bg-white p-2 rounded-lg">
@@ -85,6 +86,7 @@ export default function TabsUI() {
       </div>
     </div>
 
+    </div>
     </div>
   );
 }

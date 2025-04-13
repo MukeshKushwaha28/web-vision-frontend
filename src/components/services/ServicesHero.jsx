@@ -2,7 +2,7 @@ import ImageCrosel from "./ImageCrosel";
 
 export default function ServicesHero() {
   return (
-
+   <div className="bg-gradient-to-r from-blue-500 to-purple-700">
     <div className="container mx-auto items-center ">
     <section className="relative w-full min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 lg:px-20 py-12 bg-gradient-to-r from-blue-500 to-purple-700">
       {/* Left Content */}
@@ -36,6 +36,7 @@ export default function ServicesHero() {
         <ImageCrosel />
       </div>
     </section>
+    </div>
     </div>
   );
 }

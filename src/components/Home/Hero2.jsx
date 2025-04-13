@@ -3,6 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
 
+
+    <div className="bg-gray-900">
     <div className="container bg-gray-900 mx-auto items-center px-4  md:px-14  mt-10">
     <div className="relative bg-gray-900 text-white py-20  ">
       <div className="absolute top-0 right-0 grid grid-cols-4 gap-2 opacity-10">
@@ -57,6 +59,8 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </div>
+
     </div>
   );
 };

@@ -3,10 +3,11 @@
 
 
 body {
-  background: var(--background);
+  background-image: linear-gradient(to right, rgb(156, 173, 220,.3), rgb(107, 33, 168,.3));
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--color-gray-50)
+  /* background-color: var(--color-gray-50) */
 }
 
 
