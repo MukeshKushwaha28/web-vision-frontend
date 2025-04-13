@@ -51,9 +51,7 @@ const JobCarousel = ({ jobs, title, color }) => {
             </h2>
             <div className=" hidden md:block h-[70px] border border-black"></div>
             <p className=" text-black w-full  md:w-[40%] ">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-              provident repellat architecto corporis dicta cumque doloribus aut
-              consectetur in sapiente ex labore, voluptate hic alias. Eaque
+            Discover insights, trends, and tips in digital marketing, SEO, PPC, and branding. Our blogs empower businesses with innovative strategies, expert advice, and the latest industry updates to stay ahead in the ever-evolving digital landscape.
             </p>
           </div>
 

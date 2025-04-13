@@ -9,8 +9,11 @@ export default function CustomMarquee() {
           {[
             "#SOCIAL MEDIA",
             "#CONTENT MARKETING",
-            "#CREATIVE SERVICES",
-            "#MARKETING",
+            "#DIGITAL MARKETING",
+            "#GRAPHIC DESIGNIG",
+            "#UI/UX DESIGNING",
+            "#WEBSITE DEVELOPMENT",
+            "#APP DEVELOPMENT",
           ].map((text, index) => (
             <span
               key={index}

@@ -84,12 +84,12 @@ const ServicesSection = () => {
   return (
     <div className="container mx-auto items-center pt-24 pb-10">
       <div className=" flex flex-col justify-center items-center ">
-        <Button text={"Advanced Technology"} />
+        {/* <Button text={"Advanced Technology"} /> */}
 
         <h2 className="font-bold text-3xl text-black text-center pt-4 pb-10">
-          Outstand{" "}
+        Industries {" "}
           <span className="bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent">
-            Cost Effective Digital
+          We Serve
           </span>{" "}
           <br /> Aggency Solution
         </h2>

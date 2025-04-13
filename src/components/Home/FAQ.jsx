@@ -5,30 +5,26 @@ import Button from "../button/Button";
 
 const faqs = [
   {
-    question: "How Much Do Your Services Cost?",
+    question: "How long does it take to see results from SEO?",
     answer:
-      "Phasellus condimentum accumsan nunc. Pellentesque habitant mordi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam luctus eleifend vestibulum. Fusce lacinia finibus dui id tristique.",
+      "SEO is a long-term strategy. Typically, you can expect noticeable improvements within 3-6 months, depending on competition and keyword difficulty.",
   },
   {
-    question: "How Long Does SEO Take To Produce Results?",
+    question: " What is the best digital marketing service for small businesses?",
     answer:
-      "It typically takes 4-6 months to see initial results, with significant improvements within 6-12 months of consistent SEO efforts.",
+      "A mix of SEO, PPC, social media marketing, and content marketing works best to build brand awareness and generate leads.",
   },
   {
-    question: "Do You Provide Advertising On Social Media?",
+    question: "How much does digital marketing cost?",
     answer:
-      "Yes, we offer comprehensive social media advertising services across all major platforms.",
+      "The cost varies depending on your business needs, goals, and industry competition. Contact us for a customized cost-effective package.",
   },
   {
-    question: "Are You Offering Services For Creating Content?",
+    question: "Why should I invest in PPC if I already do SEO?",
     answer:
-      "Yes, we provide full-service content creation including articles, videos, and social media content.",
+      "YSEO is a long-term strategy, while PPC provides instant visibility and leads. A balanced approach using both ensures sustainable growth.",
   },
-  {
-    question: "Are Long-Term Agreements Necessary?",
-    answer:
-      "We offer flexible agreement terms based on your specific needs and project requirements.",
-  },
+ 
 ];
 
 const FAQ = () => {

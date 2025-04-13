@@ -9,28 +9,28 @@ const Hero = () => {
   const slides = [
     {
       tag: "ALL-IN-ONE SOLUTION",
-      title: "A RESULT DRIVEN STRATEGY.",
+      title: "Top Digital Marketing Agency in India",
       description:
-        "Ved scelerisque dolor sed enim suscipit, non facilisis neque iaculis. Suspendisse a ex ultricies, molestie nulla id, mollis ipsum.",
+        "Best Digital Marketing Agency in India: Get Results. The much raised search engine ranking, increase in traffic towards your website and improvement in ROI are just a few month benefits of the Top Digital Marketing Services offered by us.",
       image:
         "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/Slider-Image-1.png",
     },
-    {
-      tag: "MEASURABLE RESULTS",
-      title: "MAXIMIZE YOUR ONLINE PROFIT.",
-      description:
-        "Suspendisse a ex ultricies, molestie nulla id, mollis ipsum. Ved scelerisque dolor sed enim suscipit, non facilisis neque iaculis.",
-      image:
-        "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/Slider-Image-1.png",
-    },
-    {
-      tag: "BOOST YOUR SEARCH",
-      title: "SEO OPTIMIZED & USER-FRIENDLY.",
-      description:
-        "Mollis ipsum ved scelerisque dolor sed enim suscipit, non facilisis neque iaculis. Suspendisse a ex ultricies, molestie nulla id.",
-      image:
-        "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/Slider-Image-1.png",
-    },
+    // {
+    //   tag: "MEASURABLE RESULTS",
+    //   title: "MAXIMIZE YOUR ONLINE PROFIT.",
+    //   description:
+    //     "Suspendisse a ex ultricies, molestie nulla id, mollis ipsum. Ved scelerisque dolor sed enim suscipit, non facilisis neque iaculis.",
+    //   image:
+    //     "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/Slider-Image-1.png",
+    // },
+    // {
+    //   tag: "BOOST YOUR SEARCH",
+    //   title: "SEO OPTIMIZED & USER-FRIENDLY.",
+    //   description:
+    //     "Mollis ipsum ved scelerisque dolor sed enim suscipit, non facilisis neque iaculis. Suspendisse a ex ultricies, molestie nulla id.",
+    //   image:
+    //     "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/Slider-Image-1.png",
+    // },
   ];
 
   return (

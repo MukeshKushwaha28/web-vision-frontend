@@ -5,37 +5,79 @@ import Button from "../button/Button";
 const data = [
   {
     id: 1,
-    title: "Marketing Automation",
+    title: "Digital Marketing Services",
     content:
-      "Donec molestie lacus vel massa malesuada, vitae accumsan nunc malesuada. Donec sed convallis nibh. Vivamus interdum pulvinar sem.",
-    tag: "MARKETING",
+      "Results from web visionary media-promote your business with SEO, SMO and PPC services-specialist in development.",
+    tag: " Digital MARKETING",
     image:
       "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
   },
   {
     id: 2,
-    title: "Digital Consulting",
+    title: "PPC Services",
     content:
-      "Vivamus interdum pulvinar sem. Praesent viverra et metus. Nullam bibendum molestie velit, non sodales orci condimentum.",
-    tag: "DIGITAL",
+      "PPC Services to Instantly Drive Traffic, Generate Leads, Boost Sales, and Maximize Your Brand’s Online Visibility.",
+    tag: "PPC",
     image:
       "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
   },
   {
     id: 3,
-    title: "SEO Optimization",
+    title: "Web Design & Development",
     content:
-      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    tag: "SEO",
+      "Innovative, world class website design and development solutions to promote the online appearance and performance of your brand.",
+    tag: "Web Design",
     image:
       "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
   },
   {
     id: 4,
-    title: "Social Media Marketing",
+    title: "Social Media Services",
     content:
-      "Etiam non massa urna. Integer feugiat lorem nec arcu interdum, eget congue augue accumsan.",
+      "Promote your brand with attractive materials, develop followers, and create a powerful appearance in all social media platforms.",
     tag: "SOCIAL MEDIA",
+    image:
+      "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
+  },
+
+  {
+    id: 5,
+    title: "Mobile App Development",
+    content:
+      "Custom Android and iOS mobile app development corresponds to your business requirements to conform to development, engagement and success.",
+    tag: "Mobile App",
+    image:
+      "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
+  },
+
+
+  {
+    id: 6,
+    title: "SEO Service",
+    content:
+      "Experts promote your online appearance with SEO services to improve visibility, run traffic and increase search ranking.",
+    tag: "SEO Service",
+    image:
+      "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
+  },
+
+
+  {
+    id: 7,
+    title: "Graphic Design",
+    content:
+      "Professional graphic design services for recording and editing - the web visions prepared for creative professionals in visionary media.",
+    tag: "Graphic Design",
+    image:
+      "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
+  },
+
+  {
+    id: 8,
+    title: "UI/UX Designing",
+    content:
+      "UI/UX designing: seamless, intuitive, and user -friendly interfaces that easily enhance engagement, purpose and brand experience.",
+    tag: "UI/UX",
     image:
       "https://wdtconcho.wpengine.com/wp-content/uploads/2024/08/home-service-image-02.jpg",
   },
@@ -47,15 +89,17 @@ export default function ServiceCards() {
   return (
     <div className=" container mx-auto px-4 md:px-20  items-center pb-24">
       <div className=" pt-24">
-        <Button text={"Comprehenssive Services"} />
-
-        <h2 className="font-bold text-3xl text-black  pt-4 pb-10">
-          Outstand{" "}
+        <Button text={"Our Expertise"} />
+        
+        <h2 className="font-bold text-3xl text-black  pt-4 pb-3">
+        Digital{" "}
           <span className="bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent">
-            Cost Effective Digital
+          Marketing Agency
           </span>{" "}
-          <br /> Aggency Solution
+          <br /> in India that generates results
         </h2>
+
+        <p className=" pb-10">Our Unique & Innovative Strategies are custom designed for each company to succeed </p>
       </div>
 
       <div className="w-full flex flex-col">
